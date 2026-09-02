@@ -31,25 +31,36 @@ export function AboutSection() {
             <p>
               For more than 30 years, I&apos;ve worked alongside leaders, teams, and
               organizations navigating growth, change, uncertainty, and transformation. My
-              career in executive HR and people leadership has taken me across technology,
-              SaaS, biotechnology, government contracting, and nonprofit organizations &mdash;
-              and through more change than I could possibly have predicted when I began.
+              career has spanned executive leadership, organizational strategy, culture, talent,
+              and business transformation across technology, SaaS, biotechnology, government
+              contracting, and nonprofit organizations.
             </p>
+            <p>What I&apos;ve learned is that leadership isn&apos;t about having all the answers.</p>
             <p className="border-l-2 border-accent pl-5 font-serif text-lg text-foreground italic">
-              Leadership isn&apos;t about having all the answers. It&apos;s about having the
-              courage to ask better questions, the clarity to make difficult choices, and the
-              compassion to remember the human being in front of you.
+              It&apos;s about having the courage to ask better questions, the clarity to make
+              difficult choices, and the compassion to remember the human being in front of you.
             </p>
             <p>
               Today, through What&apos;s Next? Coaching and Consulting, I bring that experience
-              to leaders and organizations at pivotal moments &mdash; whether that means
-              stepping into a bigger role, navigating change, strengthening a leadership team,
-              developing a more humane and accountable culture, or simply figuring out what
-              comes next.
+              to leaders and organizations at pivotal moments &mdash; whether they are stepping
+              into a bigger role, navigating significant change, strengthening a leadership
+              team, building a more humane and accountable culture, or deciding what comes next.
             </p>
             <p>
-              Because sometimes the most important question isn&apos;t, &ldquo;What have I
-              done?&rdquo; It&apos;s &ldquo;What&apos;s next?&rdquo;
+              My approach combines strategic business insight with curiosity, candor,
+              compassion, and accountability. I believe we can expect great things from people
+              without losing sight of their humanity &mdash; and that some of the strongest
+              leadership happens when people feel both challenged and genuinely seen.
+            </p>
+            <p>
+              Through executive and individual coaching, team coaching, leadership development,
+              keynote speaking, and the What&apos;s Next? podcast, I create conversations that
+              help people find greater clarity, confidence, courage, and possibility.
+            </p>
+            <p>
+              Because what&apos;s next isn&apos;t simply about where you go from here. It&apos;s
+              about recognizing what&apos;s possible, choosing what matters, and having the
+              courage to move toward it.
             </p>
           </div>
         </div>

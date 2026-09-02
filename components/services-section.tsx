@@ -8,40 +8,40 @@ const services = [
     title: 'Executive & Individual Coaching',
     tagline: 'Find clarity. Make confident choices. Move forward.',
     description:
-      'One-on-one coaching creates space to step away from the noise, think differently, and focus on what matters most. We explore where you are, where you want to go, and the roadmap to get there.',
-    gain: 'Greater clarity, confidence in your decisions, a fresh perspective, and actionable next steps.',
+      'One-on-one coaching creates space to step away from the noise, think differently, and focus on what matters most. Together, we\u2019ll explore where you are, where you want to go, and what may be getting in the way. Whether you\u2019re navigating a leadership challenge, stepping into a new role, making a career decision, or looking for greater clarity and confidence, our conversations are grounded in curiosity, candor, compassion, and accountability.',
+    gain: 'Greater clarity, stronger decision-making, fresh perspective, renewed confidence, and practical next steps.',
   },
   {
     icon: Signpost,
-    title: 'Life & Transition Coaching',
-    tagline: 'Get clear about what you want next.',
+    title: 'Life & What\u2019s Next Coaching',
+    tagline: 'Get clear about what matters now \u2014 and choose what comes next.',
     description:
-      'Life doesn\u2019t always follow the path we expected. Life coaching creates space to step back, explore what matters now, challenge the assumptions keeping you stuck, and make intentional choices about what comes next.',
-    gain: 'Renewed confidence, a stronger sense of possibility, and practical steps toward the life you want.',
+      'Life doesn\u2019t always follow the path we expected. A career changes. A relationship shifts. A chapter ends. Or sometimes we simply realize that what once worked no longer feels right. This work creates space to step back, listen more closely to what you need, challenge the assumptions that may be keeping you stuck, and explore what feels meaningful now. My role isn\u2019t to tell you what your next chapter should look like \u2014 together, we\u2019ll uncover what matters most to you and create a path forward that feels intentional and authentically yours.',
+    gain: 'Greater clarity, renewed confidence, a stronger sense of possibility, and practical steps toward the life you want to create.',
   },
   {
     icon: Users,
-    title: 'Team & Group Coaching',
+    title: 'Team Coaching & Development',
     tagline: 'Build stronger leaders \u2014 and stronger connections.',
     description:
-      'I work with leadership teams and groups to strengthen communication, build trust, navigate change, and create an environment where individuals can challenge one another and still feel heard and respected.',
-    gain: 'Better conversations, clearer expectations, and a team better equipped to move forward together.',
+      'Great teams don\u2019t happen by accident. I work with leadership teams to strengthen communication, build trust, navigate change, clarify expectations, and create an environment where people can challenge one another, be accountable, and still feel heard and respected. The work is tailored to the needs of the team and may include facilitated conversations, coaching, leadership development, and practical tools that strengthen how the team works together.',
+    gain: 'Better conversations, clearer expectations, stronger relationships, greater trust, and a team better equipped to move forward together.',
   },
   {
     icon: HeartHandshake,
     title: 'Leadership Development & Compassionate Leadership',
     tagline: 'Lead with humanity without lowering the bar.',
     description:
-      'Compassion and accountability are not opposites. These programs and workshops help leaders have honest conversations, give meaningful feedback, and create cultures where humanity and high expectations coexist.',
-    gain: 'More self-aware leaders, greater accountability, and healthier communication.',
+      'Compassion and accountability are not opposites. My leadership programs and workshops help leaders develop the mindset and skills to have honest conversations, give meaningful feedback, lead through uncertainty, build trust, and create cultures where humanity and high expectations can coexist. Programs can be tailored to the needs of your leaders, teams, and organization.',
+    gain: 'More self-aware leaders, greater accountability, healthier communication, stronger relationships, and leadership practices that support both people and performance.',
   },
   {
     icon: Mic2,
     title: 'Keynotes & Conversations',
     tagline: 'Create a conversation people continue after the room clears.',
     description:
-      'I speak on leadership, change, choice, mindset, and what it means to lead with humanity \u2014 inviting people to think differently about how they lead and what may be possible next.',
-    gain: 'An engaging, thought-provoking experience that encourages reflection and action.',
+      'I speak on leadership, change, choice, mindset, compassionate leadership, and what it means to lead and live with greater intention. My goal isn\u2019t simply to inspire an audience for an hour \u2014 it\u2019s to invite people to think differently about how they lead, the choices they make, and what may be possible next. I\u2019m also available for podcast appearances, panel discussions, fireside chats, and facilitated leadership conversations.',
+    gain: 'An engaging, thought-provoking experience that encourages reflection, meaningful conversation, and action.',
   },
 ]
 
@@ -51,11 +51,13 @@ export function ServicesSection() {
       <div className="mx-auto max-w-2xl text-center">
         <p className="text-sm font-medium tracking-[0.2em] text-primary uppercase">Services</p>
         <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground italic sm:text-4xl">
-          Work that meets you where you are
+          What&apos;s in it for you?
         </h2>
         <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground">
-          You may know something needs to change, even if you&apos;re not quite sure what comes
-          next. Here&apos;s how we might work together.
+          Sometimes you know something needs to change, but you&apos;re not quite sure what
+          comes next. You may be stepping into a new role, navigating a career or life
+          transition, facing a difficult leadership challenge, strengthening a team, or simply
+          realizing that what worked before no longer fits. That&apos;s where our work begins.
         </p>
       </div>
 
