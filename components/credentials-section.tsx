@@ -50,10 +50,10 @@ export function CredentialsSection() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-[3/4] w-full max-w-[280px] overflow-hidden rounded-md shadow-sm">
+        <div className="relative mx-auto aspect-[535/842] w-full max-w-[280px] overflow-hidden rounded-md shadow-sm">
           <Image
-            src="/images/book-cover.png"
-            alt={`Cover of the book ${siteConfig.bookTitle} by Laurie`}
+            src="/images/whats-next-card.jpeg"
+            alt={`${siteConfig.bookTitle} — Creating a Path Forward, Laurie Riker, Founder`}
             fill
             sizes="280px"
             className="object-cover"

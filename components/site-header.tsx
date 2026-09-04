@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X, ArrowUpRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -31,11 +32,15 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
-        <Link href="#top" className="font-serif text-lg italic tracking-tight text-foreground">
-          What&apos;s Next?
-          <span className="ml-2 hidden font-sans text-xs font-medium not-italic tracking-[0.2em] text-muted-foreground uppercase sm:inline">
-            Coaching &amp; Consulting
-          </span>
+        <Link href="#top" className="shrink-0">
+          <Image
+            src="/logo.png"
+            alt={siteConfig.name}
+            width={890}
+            height={379}
+            priority
+            className="h-9 w-auto md:h-10"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
