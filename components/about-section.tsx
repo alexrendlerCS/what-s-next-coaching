@@ -19,7 +19,7 @@ export function AboutSection() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
       <div className="flow-root">
-        <div className="relative mx-auto mb-8 aspect-[3/4] w-full max-w-sm overflow-hidden rounded-md bg-gradient-to-br from-primary/15 via-secondary/50 to-accent/10 md:float-left md:mr-10 md:mb-6 md:w-2/5 md:max-w-none">
+        <div className="relative mx-auto mb-8 aspect-[3/4] w-full max-w-sm overflow-hidden rounded-md bg-gradient-to-br from-primary/15 via-secondary/50 to-accent/10 ring-2 ring-primary/25 ring-offset-4 ring-offset-background md:float-left md:mr-10 md:mb-6 md:w-2/5 md:max-w-none">
           <Image
             src="/images/laurie-portrait.png"
             alt="Portrait of Laurie, founder of What's Next? Coaching and Consulting"
@@ -36,7 +36,11 @@ export function AboutSection() {
 
         <div className="mt-4 flex flex-wrap gap-2">
           {roles.map((role) => (
-            <Badge key={role} variant="secondary" className="h-auto px-3 py-1 text-xs">
+            <Badge
+              key={role}
+              variant="outline"
+              className="h-auto border-primary/30 bg-primary/5 px-3 py-1 text-xs text-primary"
+            >
               {role}
             </Badge>
           ))}
@@ -54,8 +58,8 @@ export function AboutSection() {
             and business transformation across technology, SaaS, biotechnology, government
             contracting, and nonprofit organizations.
           </p>
-          <p>What I&apos;ve learned is that leadership isn&apos;t about having all the answers.</p>
-          <p className="border-l-2 border-accent pl-5 font-serif text-lg text-foreground italic">
+          <p>What I&apos;ve learned is that life isn&apos;t about having all the answers.</p>
+          <p className="rounded-md border-l-4 border-primary bg-primary/5 px-6 py-5 font-serif text-lg text-foreground italic">
             It&apos;s about having the courage to ask better questions, the clarity to make
             difficult choices, and the compassion to remember the human being in front of you.
           </p>
@@ -66,7 +70,7 @@ export function AboutSection() {
             team, building a more humane and accountable culture, or deciding what comes next.
           </p>
 
-          <div className="grid grid-cols-1 divide-y divide-border rounded-md border border-border bg-card/60 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          <div className="grid grid-cols-1 divide-y divide-primary/20 rounded-md border border-primary/25 bg-primary/5 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {stats.map((stat) => (
               <div
                 key={stat.label}
@@ -90,7 +94,7 @@ export function AboutSection() {
             help people find greater clarity, confidence, courage, and possibility.
           </p>
 
-          <p className="rounded-md border-l-2 border-primary bg-primary/5 px-6 py-5 font-serif text-lg leading-relaxed text-foreground italic">
+          <p className="rounded-md border-l-4 border-primary bg-primary/5 px-6 py-5 font-serif text-lg leading-relaxed text-foreground italic">
             Because what&apos;s next isn&apos;t simply about where you go from here. It&apos;s
             about recognizing what&apos;s possible, choosing what matters, and having the
             courage to move toward it.

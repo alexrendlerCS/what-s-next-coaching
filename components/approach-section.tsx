@@ -19,7 +19,7 @@ const pillars = [
 
 export function ApproachSection() {
   return (
-    <section id="approach" className="border-y border-border bg-secondary/60">
+    <section id="approach" className="border-y border-primary/20 bg-secondary/60">
       <div className="mx-auto max-w-6xl px-6 py-14 md:px-10">
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
           {pillars.map((pillar) => (

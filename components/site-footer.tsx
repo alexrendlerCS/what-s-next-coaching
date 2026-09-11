@@ -4,7 +4,7 @@ import { siteConfig } from '@/lib/site-config'
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border bg-background">
+    <footer className="border-t-2 border-primary bg-background">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 md:flex-row md:items-start md:justify-between md:px-10">
         <div className="flex flex-col gap-3">
           <Image

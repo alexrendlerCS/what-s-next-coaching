@@ -23,7 +23,7 @@ const credentials = [
 
 export function CredentialsSection() {
   return (
-    <section id="speaking" className="border-y border-border bg-secondary/60">
+    <section id="speaking" className="border-y border-primary/20 bg-secondary/60">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1fr_0.7fr] md:items-center md:px-10 md:py-24">
         <div className="flex flex-col gap-8">
           <div>
@@ -38,7 +38,9 @@ export function CredentialsSection() {
           <div className="flex flex-col gap-6">
             {credentials.map((item) => (
               <div key={item.label} className="flex items-start gap-4">
-                <item.icon className="mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true" />
+                <div className="flex size-9 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <item.icon className="size-4" aria-hidden="true" />
+                </div>
                 <div>
                   <h3 className="text-base font-medium text-foreground">{item.label}</h3>
                   <p className="text-sm leading-relaxed text-muted-foreground">
@@ -50,7 +52,7 @@ export function CredentialsSection() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-[535/842] w-full max-w-[280px] overflow-hidden rounded-md shadow-sm">
+        <div className="relative mx-auto aspect-[535/842] w-full max-w-[280px] overflow-hidden rounded-md ring-4 ring-primary shadow-sm">
           <Image
             src="/images/whats-next-card.jpeg"
             alt={`${siteConfig.bookTitle} — Creating a Path Forward, Laurie Riker, Founder`}

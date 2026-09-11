@@ -90,7 +90,7 @@ export function ServicesSection() {
           return (
             <Card
               key={service.title}
-              className={`group border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg ${
+              className={`group border-border border-t-2 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:border-t-primary hover:shadow-lg ${
                 isLast ? 'md:col-span-2' : ''
               }`}
             >
@@ -98,7 +98,7 @@ export function ServicesSection() {
                 <div className="grid gap-6 md:grid-cols-[1.1fr_1fr] md:items-center">
                   <div className="flex flex-col gap-4">{cardBody}</div>
                   <div className="mx-4 flex items-center justify-center rounded-md bg-gradient-to-br from-primary/15 to-primary/5 p-6 md:mx-0 md:mr-4 md:h-full md:min-h-56 md:self-stretch">
-                    <div className="relative aspect-square w-full max-w-56 overflow-hidden rounded-md shadow-md ring-1 ring-foreground/10">
+                    <div className="relative aspect-square w-full max-w-56 overflow-hidden rounded-md shadow-md ring-2 ring-primary/30">
                       <Image
                         src="/images/keynote-stage.png"
                         alt="Laurie speaking on stage at a keynote event"

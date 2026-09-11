@@ -42,19 +42,19 @@ export function HeroSection() {
         </div>
 
         <div className="relative">
-          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-md">
+          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-md ring-2 ring-primary/25 ring-offset-4 ring-offset-background">
             <Image
-              src="/images/hero-conversation.png"
-              alt="Two armchairs facing each other beside a sunlit window, set for a coaching conversation"
+              src="/images/heroimage.png"
+              alt="Laurie, founder of What's Next? Coaching and Consulting"
               fill
               priority
               sizes="(min-width: 768px) 40vw, 90vw"
               className="object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 hidden max-w-[220px] rounded-md border border-border bg-card p-4 shadow-sm sm:block">
+          <div className="absolute -bottom-6 -left-6 hidden max-w-[220px] rounded-md border border-border border-l-4 border-l-primary bg-card p-4 shadow-sm sm:block">
             <p className="font-serif text-sm italic leading-snug text-card-foreground">
-              &ldquo;Leadership isn&apos;t about having all the answers.&rdquo;
+              &ldquo;Life isn&apos;t about having all the answers.&rdquo;
             </p>
           </div>
         </div>

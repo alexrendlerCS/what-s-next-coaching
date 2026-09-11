@@ -31,6 +31,7 @@ export function SiteHeader() {
         scrolled ? 'bg-background/90 backdrop-blur-sm border-b border-border' : 'bg-transparent'
       }`}
     >
+      <div className="h-1 w-full bg-primary" />
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
         <Link href="#top" className="shrink-0">
           <Image
