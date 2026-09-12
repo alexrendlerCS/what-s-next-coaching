@@ -10,7 +10,7 @@ const roles = [
 ]
 
 const stats = [
-  { value: '30+', label: 'Years of experience' },
+  { value: '20+', label: 'Years of experience' },
   { value: '5', label: 'Industries served' },
   { value: '4', label: 'Guiding principles' },
 ]
@@ -52,7 +52,7 @@ export function AboutSection() {
             powerful questions we ask ourselves.
           </p>
           <p>
-            For more than 30 years, I&apos;ve worked alongside leaders, teams, and
+            For over two decades, I&apos;ve worked alongside leaders, teams, and
             organizations navigating growth, change, uncertainty, and transformation. My
             career has spanned executive leadership, organizational strategy, culture, talent,
             and business transformation across technology, SaaS, biotechnology, government
